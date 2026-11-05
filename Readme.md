@@ -33,19 +33,31 @@ end
 • OpenCV (Required for video playback only. Run: pip install opencv-python).
 
 🚀 Getting Started:
- * Unzip the archive.
- * Open your terminal in the oulsi folder.
+ 
+* Unzip the archive.
+ 
+* Open your terminal in the oulsi folder.
+
  * Run an example:
    • Linux / macOS: python3 oulsi.py examples/hello.oul
    • Windows: py oulsi.py examples/hello.oul
 
 ⚠️ Known Limitations (BETA):
+
 • This is a BETA release, so please don't expect everything to work perfectly yet!
+
 • No "else if" as one word (nest an if inside the else block instead).
+
 • No dedicated true/false boolean type.
+
 • No way to ask the player for interactive text input yet.
+
 • No lists inside lists (nested arrays).
+
 • No generic wait or pause commands.
+
 • Pictures must be in PNG or GIF format.
+
 • Videos currently play without audio.
+
 • Sound playback depends on system compatibility (Windows supports .wav files).
