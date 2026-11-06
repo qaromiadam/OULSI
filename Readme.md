@@ -1,4 +1,4 @@
-# 🐍 Oulsi v5.0: A Programming Language That Reads Like Plain English
+# 🐍 Oulsi v5.6: A Programming Language That Reads Like Plain English
 
 Oulsi makes coding as natural as writing a simple sentence.
 
