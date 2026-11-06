@@ -1,4 +1,4 @@
-🐍 Oulsi v4.0 — A Programming Language That Reads Like Plain English!
+🐍 Oulsi v5.0 — A Programming Language That Reads Like Plain English!
 Oulsi makes coding as natural as writing a simple sentence! Built entirely in Python, Oulsi uses clear commands like set, say, add, if, repeat, and move. Best of all, capital letters don't matter at all!
 
 💡 Quick Example:
