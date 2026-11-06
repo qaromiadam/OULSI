@@ -8,7 +8,8 @@ Commands and variable names are not case-sensitive, so `SAY`, `Say`, and `say` a
 
 ## 💡 Quick example
 
-```set price to 20
+```
+set price to 20
 set count to 3
 calculate total = price * count
 say "Total to pay:" total
@@ -17,7 +18,8 @@ if total is greater than 50:
     say "You get a discount!" 🎉
 else
     say "No discount this time"
-end```
+end
+```
 
 ## 🚀 Features
 
@@ -65,12 +67,8 @@ Typed file names such as `play «clip.mp4»` work too.
 
 2. 🏁 Run an example:
 
-   Linux / macOS: 
+   Linux / macOS: `python3 oulsi.py examples/hello.oul`
 
-```"python3 oulsi.py examples/hello.oul"```
-
-   Windows: 
-
-```"py oulsi.py examples/hello.oul"```
+   Windows: `py oulsi.py examples/hello.oul`
 
 3. 📘 Read HOW TO BUILD OULSI for setup, or HOW TO USE OULSI for the language reference.
