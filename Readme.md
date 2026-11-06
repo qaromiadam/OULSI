@@ -1,66 +1,76 @@
-🐍 Oulsi v5.0 — A Programming Language That Reads Like Plain English!
-Oulsi makes coding as natural as writing a simple sentence! Built entirely in Python, Oulsi uses clear commands like set, say, add, if, repeat, and move. Best of all, capital letters don't matter at all!
+# 🐍 Oulsi v5.0: A Programming Language That Reads Like Plain English
 
-💡 Quick Example:
+Oulsi makes coding as natural as writing a simple sentence.
 
-set price to 20
+It is written in Python and uses clear commands such as `set`, `say`, `add`, `if`, `repeat`, and `move`.
 
+Commands and variable names are not case-sensitive, so `SAY`, `Say`, and `say` all work. ✨
+
+## 💡 Quick example
+
+```set price to 20
 set count to 3
-
 calculate total = price * count
-
 say "Total to pay:" total
 
 if total is greater than 50:
-
-say "You get a discount!"
-
+    say "You get a discount!" 🎉
 else
+    say "No discount this time"
+end```
 
-say "No discount this time"
+## 🚀 Features
 
-end
+**🧠 Language core:** variables, math, text joining, `if`/`else`, `elif` and `else if`, `and`/`or`, grouping conditions with brackets, `repeat`, `for each` loops, lists (including lists inside lists), custom functions, true and false values, `ask` for typing answers, and `pause`/`wait` in seconds ⏱️.
 
-✨ Powerful Features & Engines Included:
+**🎨 Graphics engine:** windows, boxes, circles, text, moving objects, turning boxes and buttons 🔄, and changing colors 🌈.
 
-• 🧠 Language Core: Variables, basic math, text joining, if/else conditions, and/or logic, grouping with brackets, repeat loops, for each loops, lists, and custom functions.
+**🕹️ Interactiveness engine:** keyboard keys ⌨️, clickable buttons 🖱️, mouse position, and mouse clicks.
 
-• 🎨 Graphics Engine: Create windows, draw boxes and circles, display custom text, move objects around, rotate them, and change colors.
+**🎮 Game engine:** collision detection, for example `if ball touches paddle` 🏓.
 
-• 🕹️ Interactiveness Engine: Full support for keyboard keys, clickable UI buttons, mouse position tracking, and mouse clicks.
+**🎬 Media engine:** pictures (`show`, `make picture`, `resize`) 🖼️, videos (`play`, `pause video`) 📹, and sounds (`play`, `stop sound`) 🔊.
 
-• 🎮 Game Engine: Built-in collision detection with natural syntax like: if ball touches paddle.
+Typed file names such as `play «clip.mp4»` work too.
 
-• 🎬 Media Engine: Handle pictures, videos, and sounds easily using play and stop commands.
+**📂 Running other files:** `start «other.oul»` runs another Oulsi file.
 
-• 🔍 Smart Error Messages: Clear error tracking that shows the specific file, line number, command, problem, and helpful suggested fixes when brackets are missing!
+**🔍 Clear error messages:** each error shows the file, line number, command, problem, and a suggested fix when brackets are missing 🛠️.
 
-• 📚 Full Documentation: Complete guides for HOW TO USE OULSI and HOW TO BUILD OULSI included in both English and French!
+**📚 Documentation:** complete guides, HOW TO USE OULSI and HOW TO BUILD OULSI, in English 🇬🇧 and French 🇫🇷.
 
-📂 What's Inside the Zip Archive:
+## 📦 What's in the zip
 
-• oulsi.py and oulsi_*.py core language modules.
+🐍 `oulsi.py` and the `oulsi_*.py` modules
 
-• 📂 examples folder packed with scripts: hello.oul, features.oul, game.oul, media_demo.oul, typed_media.oul, video_demo.oul, main.oul, other.oul.
+🗂️ `examples/`: hello, features, v5_features, counting_demo, ask_demo, game, media_demo, typed_media, video_example, video_formats, jpg_demo, main, other
 
-• 📂 media folder with default assets.
+🎞️ `examples/media/`: sample sound, picture, photo, and five versions of a short video with sound (MP4, AVI, MOV, MKV, WebM)
 
-• 📖 Complete HOW TO USE and HOW TO BUILD documentation files.
+📖 The HOW TO USE and HOW TO BUILD guides in English and French
 
-⚙️ Requirements & System Setup:
+## ⚙️ Requirements
 
-• Python 3.8 or newer.
+**Required:** Python 3.8 or newer 🐍
 
-• tkinter (Pre-installed with Python on Windows and macOS. On Linux, run: sudo apt install python3-tk).
+**Windows and games:** tkinter (included with Python on Windows and macOS; on Linux, `sudo apt install python3-tk`) 🪟
 
-• OpenCV (Required for video playback only. Run: pip install opencv-python).
+**Optional extras:** Pillow, OpenCV, and FFmpeg. Oulsi runs without them, but some features need them: JPG pictures and resizing (Pillow), videos (OpenCV), and video sound and mp3 files (FFmpeg).
 
-🚀 Getting Started:
- 
-* Unzip the archive.
- 
-* Open your terminal in the oulsi folder.
+📘 For step-by-step install instructions for Windows, macOS, and Linux, open **BUILD_OULSI_GUIDE_ENGLISH.txt** (or **BUILD_OULSI_GUIDE_FRANÇAIS.txt** for French) and read **STEP 1B: OPTIONAL EXTRAS**.
 
- * Run an example:
-   • Linux / macOS: python3 oulsi.py examples/hello.oul
-   • Windows: py oulsi.py examples/hello.oul
+## ▶️ Getting started
+
+1. 📥 Unzip the archive and open a terminal in the `oulsi` folder.
+
+2. 🏁 Run an example:
+
+   Linux / macOS: 
+
+```"python3 oulsi.py examples/hello.oul"```
+
+   Windows: 
+
+```"py oulsi.py examples/hello.oul"```
+
+3. 📘 Read HOW TO BUILD OULSI for setup, or HOW TO USE OULSI for the language reference.
