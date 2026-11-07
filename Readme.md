@@ -73,5 +73,7 @@ Typed file names such as `play «clip.mp4»` work too.
    Windows: `py oulsi.py examples/hello.oul`
 
 3. 📘 Read HOW TO BUILD OULSI for setup, or HOW TO USE OULSI for the language reference.
+4. image examples:
 <img width="1918" height="1018" alt="Capture d&#39;écran 2026-11-07 131413" src="https://github.com/user-attachments/assets/df984c03-2403-4b43-b72f-7d7b5554370b" />
+
 <img width="1918" height="1016" alt="Capture d&#39;écran 2026-11-07 131500" src="https://github.com/user-attachments/assets/3b7d062d-a57c-4c01-ba7b-3f60cde0c70a" />
