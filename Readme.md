@@ -1,4 +1,3 @@
-<img width="1918" height="1018" alt="Capture d&#39;écran 2026-11-07 131413" src="https://github.com/user-attachments/assets/b3a1ebd5-496c-40d4-93ca-fe3418b51173" />
 <img width="1024" height="1024" alt="1793916657004" src="https://github.com/user-attachments/assets/4aee92ae-95dd-49b6-9b7b-1983a167a1f4" />
 # 🐍 Oulsi v5.6: A Programming Language That Reads Like Plain English
 
